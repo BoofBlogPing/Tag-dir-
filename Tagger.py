@@ -285,5 +285,5 @@ async def mentionall(tagadmin):
                 sleep(0.5)
 
 
-print(">> Bot işləyir narahat olma 🚀 məlumat almaq üçün @ThrHassan yazın <<")
+print(">> Bot işləyir narahat oılma 🚀 məlumat almaq üçün @ThrHassan yazın <<")
 client.run_until_disconnected()
