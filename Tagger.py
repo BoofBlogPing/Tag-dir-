@@ -24,13 +24,13 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("Salam 👋\n\nMən sizin əvəzinizdən qruplarnızda istifadəçiləri tag edə bilərəm.\n\nHaqqımda daha ətraflı məlumat əldə etmək üçün /help əmrinə toxunun.",
+  await event.reply("Salam 👋.Mən Usta Tagger Bot.\nSizin əvəzinizdən qruplarnızda istifadəçiləri tag edə bilərəm.Haqqımda daha ətraflı məlumat əldə etmək üçün /help əmrinə toxunun.",
                     buttons=(
                    
-		      [Button.url('Məni Qrupa Sal ➕', 'https://t.me/ElxanTaggerBot?startgroup=a')],
-                      [Button.url('Support 🛠', 'https://t.me/muellime')],
-                      [Button.url('Reklam Üçün 📣', 'https://t.me/muellime')],
-		      [Button.url('Developer 👨🏻‍💻', 'https://t.me/muellime')],
+		      [Button.url('➕ Məni Qrupa Sal ➕', 'https://t.me/ElxanTaggerBot?startgroup=a')],
+                      [Button.url('Developer 👨🏻‍💻', 'https://t.me/muellime')],
+                      [Button.url(' Qurup 📣', 'https://t.me/muellime')],(' Kanal 🛠️', 'https://t.me/muellime')],
+		      [Button.url(' Kanal 🛠️', 'https://t.me/muellime')],
                     ),
                     link_preview=False
                    )
