@@ -29,7 +29,7 @@ async def start(event):
                    
 		      [Button.url('➕ Məni Qrupa Sal ➕', 'https://t.me/ElxanTaggerBot?startgroup=a')],
                       [Button.url('Developer 👨🏻‍💻', 'https://t.me/muellime')],
-                      [Button.url(' Qurup 📣', 'https://t.me/muellime')],(' Kanal 🛠️', 'https://t.me/muellime')],
+                      [Button.url(' Qurup 📣', 'https://t.me/muellime'),(' Kanal 🛠️', 'https://t.me/muellime')],
 		      [Button.url(' Kanal 🛠️', 'https://t.me/muellime')],
                     ),
                     link_preview=False
